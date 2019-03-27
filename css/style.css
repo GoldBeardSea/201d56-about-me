@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(135, 172, 252);
+    margin: 2em 2em;
+    padding: 1em;
+  }
+
+main {
+    text-align: center;
+}
+  
+h1 {
+    font-size: 4em;
+    /* margin: 2em; */
+    text-align: center;
+  }
+
+p {
+    font-size: 2.5em;
+    margin: 2em 2em;
+    padding: 1em;
+    text-align: center;
+ }
+  
+h2 {
+    font-size: 2em;
+    margin: 2em 2em;
+    text-align: center
+}
+  
+div {
+    border: solid rgb(0, 0, 0);
+    width: 50%;
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+}
+

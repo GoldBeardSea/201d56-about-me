@@ -12,7 +12,7 @@ if (nameArray.includes(userName.toUpperCase())) {
 }
 
 var guessCat = prompt('Do I like cats?').toUpperCase();
-console.log(guessCat)
+console.log(guessCat);
 if (arrayYes.includes(guessCat)) {
   questionCorrect++;
   alert('Yes I really love cats');
@@ -25,7 +25,7 @@ if (arrayYes.includes(guessSeattle)) {
   questionCorrect++;
   alert('I am in fact a native Seattleite, good job');
 } else {
-  alert('All hair king of the losers - Age of Empires II, we are savage here.')
+  alert('All hair king of the losers - Age of Empires II, we are savage here.');
 }
 
 var guessLacross = prompt('Have I played Lacross?').toUpperCase();
@@ -33,15 +33,15 @@ if (arrayYes.includes(guessLacross)) {
   alert('You got it wrong');
 } else {
   questionCorrect++;
-  alert('I have never, ever played Lacross, good guess')
+  alert('I have never, ever played Lacross, good guess');
 }
 
 var guessClimber = prompt('Have I ever climbed Mt Rainier?').toUpperCase();
 if (arrayYes.includes(guessClimber)) {
-  alert('You got it wrong, bucko.')
+  alert('You got it wrong, bucko.');
 } else {
   questionCorrect++;
-  alert('You guessed right')
+  alert('You guessed right');
 }
 
 var guessDessert = prompt('Do I like dessert?').toUpperCase();
@@ -55,7 +55,7 @@ if (arrayYes.includes(guessDessert)) {
 var guessLanguage = prompt('Do I prefer compiled language?').toUpperCase();
 if (arrayYes.includes(guessLanguage)) {
   questionCorrect++;
-  alert('Java is a jam!')
+  alert('Java is a jam!');
 } else {
   alert('That is wrong, I love compiled languages');
 }

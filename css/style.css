@@ -12,11 +12,13 @@ body {
 
 main {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
   
 h1 {
     font-size: 4em;
-    /* margin: 2em; */
     text-align: center;
   }
 
@@ -31,6 +33,10 @@ h2 {
     font-size: 2em;
     margin: 2em 2em;
     text-align: center
+}
+
+ol {
+    list-style-type: numeric;
 }
   
 div {

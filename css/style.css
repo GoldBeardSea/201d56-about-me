@@ -2,48 +2,84 @@ html {
     font-family: sans-serif;
     color: black;
     font-weight: bold;
+    
 }
 
 body {
     background-color: rgb(135, 172, 252);
-    margin: 2em 2em;
-    padding: 1em;
   }
 
 main {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     
 }
   
 h1 {
-    font-size: 4em;
+    font-size: 2.5em;
     text-align: center;
   }
 
 p {
-    font-size: 2.5em;
-    margin: 2em 2em;
-    padding: 1em;
+    font-size: 1em;
+    margin: .25rem;
+    padding: .25rem;
     text-align: center;
  }
   
 h2 {
     font-size: 2em;
-    margin: 2em 2em;
-    text-align: center
+    margin: .5rem;
+    text-align: center;
 }
 
 ol {
-    list-style-type: numeric;
+    list-style-type: decimal;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.15rem;
 }
   
 div {
-    border: solid rgb(0, 0, 0);
-    width: 50%;
+    width: 45%;
     background-color: red;
     text-align: center;
     display: inline-block;
+    margin: .5rem;
+    max-height: 400px;
+    max-width: 400px;
 }
 
+ul {
+    font-size: 1.15em;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#intro {
+    font-size: 1.5em;
+}
+
+#pDIV {
+    font-size: 1.25rem;
+}
+
+.pics {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.pics img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.footerLinks {
+    display: inline-block;
+    align-items: center;
+}
